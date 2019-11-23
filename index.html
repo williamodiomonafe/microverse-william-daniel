@@ -14,11 +14,13 @@
     <h1 id="title">Survey form</h1>
     <p id="description">This is a short explanation for this survey form</p>
     <form id="survey-form">
-      <input id="name" type="text" required>
-
-      <input id="email" type="email" required />
-
-      <input id="number" type="number" />
+      <label id="name-label">Name</label>
+      <input id="name" type="text" placeholder="Enter your name" required>
+      <label id="email-label">Email</label>
+      <input id="email" type="email" placeholder="Enter your email" required />
+      <label id="number-label">Age</label>
+      <input id="number" type="number" min="10" max="30" placeholder="Enter your age" />
+      <select id="dropdown">select</select>
     </form>
 
 
